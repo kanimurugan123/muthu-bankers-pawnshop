@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+  <meta charset="UTF-8">
+  <title>முத்து பாங்கர்ஸ் | தங்க அடகு கடன்</title>
+   <link rel="icon" type="image/png" href="logo.jpg">
+   <link href="https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@600&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="script.js"></script>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">  
+
+</head>
+<body>
+<!-- TOP HEADER : LOGO + COMPANY NAME -->
+<div class="top-header">
+
+  <img src="logo.jpg" class="logo-left">
+
+  <h1 class="company-title">முத்து பாங்கர்ஸ்</h1>
+<div class="experience-badge">
+  <span class="years">15+</span>
+  <span class="text">ஆண்டுகளாக</span>
+</div>
+
+</div>
+<!-- NAVBAR : SECOND LINE -->
+<nav class="navbar navbar-expand-lg">
+  <div class="container justify-content-center">
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="nav">
+      <ul class="navbar-nav" style="font-size: 25px;">
+        <!-- <li class="nav-item"><a class="nav-link" href="#home">முகப்பு</a></li> -->
+         <li class="nav-item me-4"><a class="nav-link" href="#about">எங்களை பற்றி</a></li>
+      <li class="nav-item me-4"><a class="nav-link" href="#offers">சலுகைகள்</a></li>
+      <li class="nav-item me-4"><a class="nav-link" href="#calculator">இன்றைய தங்க விலை</a></li>
+<li class="nav-item me-2"><a class="nav-link" href="#contact">தொடர்பு</a></li>
+<li class="nav-item"><a class="nav-link" href="admin.html">நிர்வாகி</a></li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+<section id="about" style="background:#fff8e1;">
+  <div class="container">
+
+    <h2 class="text-center mb-4">🏢 எங்களை பற்றி</h2>
+
+    <p class="text-center fs-5">
+      கடந்த <b>15+ ஆண்டுகளாக</b> முத்து பாங்கர்ஸ்,  
+      நம்பிக்கை, நேர்மை மற்றும் விரைவான சேவையை அடிப்படையாகக் கொண்டு  
+      தங்க அடகு கடன் சேவையில் சிறந்த நிறுவனமாக செயல்பட்டு வருகிறது.
+    </p>
+
+    <div class="row mt-4">
+
+      <div class="col-md-6">
+        <div class="box">
+          <h5>✨ எங்கள் சிறப்பம்சங்கள்</h5>
+          <ul>
+            <li> உங்கள் நகைக்கு உடனடி பணம்</li>
+            <li> குறைந்த வட்டி விகிதம்</li>
+            <li> 100% பாதுகாப்பான மற்றும் வெளிப்படையான சேவை</li>
+            <li> எளிதான தவணைகள் </li>
+            <li> விவசாயிகள் மற்றும் தொழில் புரிபவர்களுக்கு சிறப்பு கடன் திட்டங்கள்</li>
+            <li> <b>2 வருடம் வரை வாடிக்கையாளர்களின் நகைகளை ஏலத்திலிருந்து பாதுகாப்பது</b></li>
+            <li> பிற வங்கிகளில் உள்ள நகைகளை மாற்றி வைக்கும் வசதி உண்டு</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="box">
+          <h5>💎 எங்கள் நோக்கம்</h5>
+          <p>
+         
+            <ul>
+              <li> இந்தியாவில் உள்ள கோடிக்கணக்கான மக்களின் வாழ்வாதாரத்தை தங்க நகைக் கடன் மூலம் மேம்படுத்துவது.</li>
+
+<li> விரைவான நம்பகமான மற்றும் வெளிப்படையான நிதி சேவை நிறுவனமாக உருவெடுப்பது.</li>
+
+<li> வாடிக்கையாளர்களின் நிதி தேவைகளை பூர்த்தி செய்து குறைந்த வட்டியில் நகைக் கடன் வழங்குவது.</li>
+
+<li> விவசாயிகள் சிறு, குறு தொழில் புரிபவர்களுக்கு முன்னுரிமை அளிப்பது</li>
+
+<li> அணைத்து செயல்பாடுகளிலும் நேர்மை வெளிப்படைத்தன்மை மற்றும் பொறுப்புணர்வுடன் செயல்படுவது</li>
+</ul>
+          </p>
+
+          
+        </div>
+      </div>
+<div class="row mt-4 justify-content-center">
+
+<div class="col-md-10">
+<div class="box">
+
+<h5 class="text-center mb-3">🤝 எங்கள் இலக்கு</h5>
+
+<ul>
+<li> தங்க நகைக்கடன் கொடுப்பதில் தொடர்ந்து முதலிடத்தில் இருப்பதையும் வாடிக்கையாளர்களின் நம்பிக்கையை நிலைநிறுத்துவதையும் இலக்காக கொண்டோம்.</li>
+
+<li> கிராமமும் மற்றும் நகர்ப்புறங்களில் அதிக கிளைகளை திறந்து நிதிசேவை அனைத்து மக்களுக்கும் கிடைக்கச் செய்வது.</li>
+
+<li> டிஜிட்டல் சேவைகளை மேம்படுத்தி வாடிக்கையாளர்களுக்கு எளிதான மற்றும் விரைவான சேவையை வழங்குவது.</li>
+
+<li> வாடிக்கையாளர்களின் பொருளாதாரத்தை உயர்த்த உதவும் நிறுவனமாக இருப்பது.</li>
+</ul>
+
+</div>
+</div>
+
+</div>
+    </div>
+
+  </div>
+</section>
+
+<!-- OFFERS -->
+<section id="offers">
+
+<h2 class="text-center mb-4">🔥 தங்க கடன் – சிறப்பு சலுகைகள் 🔥</h2>
+
+<div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+
+<div class="carousel-inner" id="bannerCarousel"></div>
+
+<button class="carousel-control-prev" type="button"
+data-bs-target="#carouselExample" data-bs-slide="prev">
+
+<span class="carousel-control-prev-icon"></span>
+
+</button>
+
+<button class="carousel-control-next" type="button"
+data-bs-target="#carouselExample" data-bs-slide="next">
+
+<span class="carousel-control-next-icon"></span>
+
+</button>
+
+</div>
+
+</section>
+
+<section id="calculator" class="hero">
+  <h2 class="mb-4 text-center">💰 தங்க கடன் கணக்கிடு</h2>
+
+  <div class="row justify-content-center">
+
+    <!-- LEFT : TODAY GOLD RATE -->
+   <div class="col-md-4 mb-3">
+  <div class="box text-center">
+    <h5>📈 இன்றைய தங்க விலை</h5>
+    <h2 class="text-danger fw-bold mt-3">
+   ₹ <span id="goldRate">இன்றைய விலை பெறப்படுகிறது…</span> / கிராம்
+    </h2>
+    <p class="mt-2">* சந்தை நிலவரத்தைப் பொறுத்து மாறுபடும்</p>
+  </div>
+</div>
+</div></section>
+
+<section id="contact" class="contact-adv">
+  <div class="container">
+    <h2 class="text-center mb-4">📞 தொடர்பு கொள்ள</h2>
+    <p class="text-center mb-5">
+      எங்களுக்கு அழைக்கவும் அல்லது WhatsApp மூலம் உடனே தொடர்பு கொள்ளவும்
+    </p>
+
+    <div class="row g-4 justify-content-center">
+
+      <!-- Call Card -->
+<div class="col-md-4">
+  <a href="tel:8643022732" class="contact-card">
+    <div class="icon">📞</div>
+    <h5>இப்போது அழைக்க</h5>
+    <p>86430 22732</p>
+  </a>
+</div>
+
+      <!-- WhatsApp Card -->
+      <div class="col-md-4">
+  <a href="https://wa.me/918643022732" target="_blank" class="contact-card whatsapp-bg">
+    <div class="icon">💬</div>
+    <h5>வாட்ஸ்அப் உரையாடல்</h5>
+    <p>உடனடி உதவி</p>
+  </a>
+</div>
+
+      <!-- Location Card -->
+      <div class="col-md-4">
+        <a href="https://www.google.com/maps/search/?api=1&query=முத்து+பாங்கர்ஸ்,+திருமலைக்கோவில்+மேயின்+ரோடு,+குத்துக்கல்வளை,+தென்காசி+மாவட்டம்"
+           target="_blank" class="contact-card location">
+          <div class="icon">📍</div>
+          <h5>எங்களைப் பார்வையிடுங்கள்</h5>
+          <p>
+            முத்து பாங்கர்ஸ்,<br>
+            திருமலைக்கோவில் மேயின் ரோடு,<br>
+            குத்துக்கல்வளை – தென்காசி.
+          </p>
+        </a>
+      </div>
+</section>
+
+<!-- ??<a href="tel:9999999999" class="call">📞</a> -->
+
+<footer class="bg-dark text-white text-center p-3">
+  © 2026 முத்து பாங்கர்ஸ் | அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+

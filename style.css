@@ -1,0 +1,299 @@
+:root{
+    --primary: #8B1E1E;
+    --dark: #6F1414;
+    --gold: #D4AF37;
+    --soft-gold: #E6C15A;
+    --bg: #FBF4E9;
+  }
+
+  html{ scroll-behavior: smooth; }
+
+  body{
+    font-family: Segoe UI;
+    background: var(--bg);
+  }
+
+  .navbar{
+    background: linear-gradient(90deg,var(--dark),var(--primary));
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+.top-header{
+background:linear-gradient(90deg,#6F1414,#8B1E1E);
+position:relative;
+text-align:center;
+padding:25px 10px;
+}
+
+.company-title{
+font-family:'Mukta Malar', sans-serif;
+color:#D4AF37;
+font-size:clamp(36px,7vw,85px);
+margin:0;
+}
+.experience-badge{
+position:absolute;
+right:20px;
+top:50%;
+transform:translateY(-50%);
+
+width:95px;
+height:95px;
+
+background: radial-gradient(circle at 30% 30%, #fff4b3, #D4AF37 60%, #b8962e);
+border-radius:50%;
+
+display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center;
+
+text-align:center;
+
+color:#6F1414;
+font-weight:bold;
+
+box-shadow:
+0 6px 15px rgba(0,0,0,0.35),
+inset 0 2px 5px rgba(255,255,255,0.6);
+
+border:3px solid #f4d46a;
+}
+
+.experience-badge .years{
+font-size:28px;
+line-height:1;
+}
+
+.experience-badge .text{
+font-size:12px;
+line-height:1.1;
+padding:0 6px;
+}/* LEFT LOGO */
+
+.logo-left{
+position:absolute;
+left:20px;
+top:50%;
+transform:translateY(-50%);
+height:110px;
+}
+
+/* RIGHT BADGE */
+
+.badge-right{
+position:absolute;
+right:20px;
+top:50%;
+transform:translateY(-50%);
+height:100px;
+}
+  .navbar-brand,
+  .nav-link{
+    color: #fff !important;
+    font-weight: 600;
+  }
+
+  .nav-link:hover{
+    color: var(--gold) !important;
+  }
+
+  section{ padding: 80px 15px; }
+
+  .hero{
+    background: linear-gradient(135deg,#fff7e0,#fde6a8);
+    text-align: center;
+  }
+
+  .box{
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    border: 2px solid var(--gold);
+    box-shadow: 0 8px 25px rgba(139,30,30,0.15);
+    transition: .3s;
+  }
+
+  .box:hover{ transform: translateY(-10px); }
+
+  .btn-warning{
+    background: var(--gold);
+    border: none;
+    font-weight: bold;
+  }
+
+  .btn-warning:hover{
+    background: var(--soft-gold);
+  }
+
+  .whatsapp{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  }
+
+  .whatsapp img{ width: 55px; }
+
+  .call{
+    position: fixed;
+    bottom: 90px;
+    right: 25px;
+    background: var(--primary);
+    color: white;
+    font-size: 22px;
+    padding: 12px 15px;
+    border-radius: 50%;
+    text-decoration: none;
+  }
+
+/* Banner Carousel */
+#carouselExample{
+max-width:1200px;
+margin:auto;
+}
+#bannerCarousel img{
+width:100%;
+height:420px;
+object-fit:contain;
+background:#fff;
+border-radius:10px;
+}
+
+/* Tablet */
+@media (max-width:992px){
+#bannerCarousel img{
+height:300px;
+}
+}
+
+/* Mobile */
+@media (max-width:576px){
+#bannerCarousel img{
+height:200px;
+}
+}
+  footer{
+    background: linear-gradient(90deg,var(--dark),var(--primary));
+  }
+  .contact-adv{
+  background: linear-gradient(135deg,#fff7dc,#fde6a8,#fff);
+}
+
+.contact-card{
+  background: #fff;
+  padding: 35px 25px;
+  border-radius: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid var(--gold);
+  box-shadow: 0 10px 30px rgba(0,0,0,.15);
+  transition: .35s;
+  display: block;
+}
+
+.contact-card:hover{
+  transform: translateY(-10px) scale(1.04);
+  box-shadow: 0 15px 40px rgba(0,0,0,.25);
+}
+
+.contact-card .icon{
+  font-size: 38px;
+  margin-bottom: 12px;
+}
+
+.whatsapp-bg{
+  background: linear-gradient(135deg,#25D366,#1ebe57);
+  color: #fff;
+  border: none;
+}
+
+.whatsapp-bg:hover{
+  color: #fff;
+}
+/* 📱 Mobile Responsive Fix */
+/* 📱 Mobile Responsive Fix */
+@media (max-width:768px){
+
+.logo-left,
+.badge-right{
+position:static;
+transform:none;
+display:block;
+margin:10px auto;
+height:70px;
+}
+.experience-badge{
+position:static;
+transform:none;
+margin:10px auto;
+
+width:75px;
+height:75px;
+}
+
+.experience-badge .years{
+font-size:20px;
+}
+
+.experience-badge .text{
+font-size:9px;
+}
+
+.company-title{
+font-size:42px;
+}
+
+.navbar-nav{
+font-size:18px !important;
+text-align:center;
+}
+
+section{
+padding:50px 12px;
+}
+
+.box{
+padding:18px;
+}
+
+.contact-card{
+padding:22px 15px;
+}
+
+.contact-card h5{
+font-size:18px;
+}
+
+.contact-card p{
+font-size:14px;
+}
+
+.call{
+bottom:80px;
+right:15px;
+font-size:20px;
+}
+
+.whatsapp img{
+width:45px;
+}
+
+}
+@keyframes badgeGlow{
+
+from{
+box-shadow:
+0 6px 15px rgba(0,0,0,0.35),
+0 0 10px rgba(212,175,55,0.5);
+}
+
+to{
+box-shadow:
+0 6px 15px rgba(0,0,0,0.35),
+0 0 25px rgba(212,175,55,0.9);
+}
+
+}
