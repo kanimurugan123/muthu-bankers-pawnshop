@@ -112,10 +112,10 @@ height:100px;
     border-radius: 15px;
     border: 2px solid var(--gold);
     box-shadow: 0 8px 25px rgba(139,30,30,0.15);
-    transition: .3s;
+    /* transition: .3s; */
   }
 
-  .box:hover{ transform: translateY(-10px); }
+  /* .box:hover{ transform: translateY(-10px); } */
 
   .btn-warning{
     background: var(--gold);
@@ -176,6 +176,8 @@ height:200px;
 }
   footer{
     background: linear-gradient(90deg,var(--dark),var(--primary));
+     margin:0;
+  padding:15px 0;
   }
   .contact-adv{
   background: linear-gradient(135deg,#fff7dc,#fde6a8,#fff);
