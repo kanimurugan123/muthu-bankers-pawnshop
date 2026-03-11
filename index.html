@@ -41,9 +41,12 @@
         <!-- <li class="nav-item"><a class="nav-link" href="#home">முகப்பு</a></li> -->
          <li class="nav-item me-4"><a class="nav-link" href="#about">எங்களை பற்றி</a></li>
       <li class="nav-item me-4"><a class="nav-link" href="#offers">சலுகைகள்</a></li>
-      <li class="nav-item me-4"><a class="nav-link" href="#calculator">இன்றைய தங்க விலை</a></li>
-<li class="nav-item me-2"><a class="nav-link" href="#contact">தொடர்பு</a></li>
-<li class="nav-item"><a class="nav-link" href="admin.html">நிர்வாகி</a></li>
+      <li class="nav-item me-4"><a class="nav-link" href="#calculator">வட்டி விகிதம்</a></li>
+<li class="nav-item me-3"><a class="nav-link" href="#contact">தொடர்பு</a></li>
+<li class="nav-item me-4">
+  <a class="nav-link" href="#jobs">வேலைவாய்ப்பு</a>
+</li>
+<!-- <li class="nav-item"><a class="nav-link" href="admin.html">நிர்வாகி</a></li> -->
       </ul>
     </div>
 
@@ -149,25 +152,73 @@ data-bs-target="#carouselExample" data-bs-slide="next">
 </button>
 
 </div>
-
 </section>
-
 <section id="calculator" class="hero">
   <h2 class="mb-4 text-center">💰 தங்க கடன் கணக்கிடு</h2>
 
   <div class="row justify-content-center">
 
     <!-- LEFT : TODAY GOLD RATE -->
-   <div class="col-md-4 mb-3">
-  <div class="box text-center">
-    <h5>📈 இன்றைய தங்க விலை</h5>
-    <h2 class="text-danger fw-bold mt-3">
-   ₹ <span id="goldRate">இன்றைய விலை பெறப்படுகிறது…</span> / கிராம்
-    </h2>
-    <p class="mt-2">* சந்தை நிலவரத்தைப் பொறுத்து மாறுபடும்</p>
+<div class="row mt-4">
+
+  <!-- Gold Rate -->
+  <div class="row mt-4 justify-content-center">
+
+  <!-- Gold Rate -->
+  <div class="col-md-4 mb-3">
+    <div class="box text-center p-3">
+      <h5>📈 இன்றைய தங்க விலை</h5>
+      <h2 class="text-danger fw-bold mt-3">
+        ₹ <span id="goldRate">இன்றைய விலை பெறப்படுகிறது…</span> / கிராம்
+      </h2>
+      <p class="mt-2">* சந்தை நிலவரத்தைப் பொறுத்து மாறுபடும்</p>
+    </div>
+  </div>
+
+  <!-- Features -->
+<div class="col-md-4 mb-3">
+  <div class="box p-3">
+    
+    <h5 class="mb-3">💰 வட்டி விகிதம்</h5>
+
+ <ul class="rate-list">
+  <li>✔️ 18 – 40 வயதுடைய வாடிக்கையாளர்களுக்கு 12% வட்டி விகிதத்தில் தங்க அடகு கடன் வழங்கப்படுகிறது</li>
+  <li>✔️ 50 வயதுக்கு மேற்பட்ட சீனியர் சிட்டிசன்களுக்கு 15% வட்டி விகிதத்தில் தங்க அடகு கடன் வழங்கப்படுகிறது</li>
+</ul>
+
   </div>
 </div>
-</div></section>
+
+</div>
+
+<!-- JOBS -->
+<section id="jobs" class="container mt-4">
+
+<h3 class="text-center mb-4">📢 வேலைவாய்ப்பு அறிவிப்பு</h3>
+
+<div class="row justify-content-center">
+
+  <div class="col-md-4 mb-3">
+    <div class="box p-3">
+
+      <h5 class="mb-3">👨‍💼 பணியாளர்கள் தேவை</h5>
+
+      <ul class="rate-list">
+        <li>✔️ எங்கள் முத்து பாங்கர்ஸ் நிறுவனத்தில் ஆண் மற்றும் பெண் பணியாளர்கள் தேவை</li>
+        <li>✔️ ஏதேனும் ஒரு பட்டப்படிப்பு (Any Degree) முடித்தவர்கள் வரலாம்</li>
+        <li>✔️ ஆர்வமுள்ளவர்கள் நேரில் வந்து தொடர்பு கொள்ளலாம்</li>
+        <li>✔️ மேலும் விவரங்களுக்கு கீழே கொடுக்கப்பட்டுள்ள தொலைபேசி எண்ணை தொடர்பு கொள்ளலாம்</li>
+      </ul>
+
+    </div>
+  </div>
+
+</div>
+
+</section>
+
+
+
 
 <section id="contact" class="contact-adv">
   <div class="container">
@@ -212,10 +263,11 @@ data-bs-target="#carouselExample" data-bs-slide="next">
 </section>
 
 <!-- ??<a href="tel:9999999999" class="call">📞</a> -->
-
-<footer class="bg-dark text-white text-center p-3">
+ <footer class="bg-dark text-white text-center p-3 m-0">
   © 2026 முத்து பாங்கர்ஸ் | அனைத்து உரிமைகளும் பாதுகாக்கப்பட்டவை
 </footer>
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
